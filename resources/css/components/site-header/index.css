@@ -1,0 +1,34 @@
+.site-header .main
+{
+	@apply bg-palette-pink;
+}
+
+.site-header .main > div
+{
+	@apply container mx-auto py-4;
+	@apply flex gap-24 items-center justify-center;
+}
+
+/* Cells order */
+
+.site-header .logo-cell
+{
+	@apply 2xl:order-1;
+}
+
+.site-header .search-cell
+{
+	@apply 2xl:order-2;
+	@apply hidden 2xl:flex;
+	@apply 2xl:grow;
+}
+
+.site-header .user-cell
+{
+	@apply 2xl:order-3;
+}
+
+.site-header .cart-cell
+{
+	@apply 2xl:order-4;
+}
