@@ -1,3 +1,7 @@
+@import url(components/site-footer/index.css);
+@import url(components/site-footer/menu.css);
+@import url(components/site-footer/social-links.css);
+
 @import url(components/marquee.css);
 @import url(components/slider.css);
 

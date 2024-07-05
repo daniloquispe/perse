@@ -12,7 +12,7 @@
 	<x-marquee />
 </header>
 <main class="main-content">@yield('content')</main>
-<footer class="site-footer">Site footer</footer>
+<x-site-footer />
 @vite('resources/js/app.js')
 @yield('js-footer')
 </body>
