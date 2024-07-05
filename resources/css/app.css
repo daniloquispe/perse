@@ -2,6 +2,7 @@
 @import url(components/site-footer/menu.css);
 @import url(components/site-footer/social-links.css);
 
+@import url(components/breadcrumbs.css);
 @import url(components/marquee.css);
 @import url(components/slider.css);
 
@@ -12,4 +13,29 @@
 body
 {
 	font-family: Roboto, sans-serif;
+	@apply text-gray-600;
+	@apply text-justify;
+}
+
+.container-box
+{
+	@apply container mx-auto;
+}
+
+.container-box-stretch
+{
+	@apply max-w-7xl mx-auto;
+}
+
+/* Document-style pages */
+
+.document header h1
+{
+	@apply mb-6;
+	@apply text-2xl text-center text-gray-800;
+}
+
+.document p
+{
+	@apply mb-4;
 }
