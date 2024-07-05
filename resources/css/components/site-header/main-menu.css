@@ -1,0 +1,17 @@
+nav.main-menu
+{
+	@apply bg-white;
+}
+
+nav.main-menu ul
+{
+	@apply container mx-auto;
+	@apply flex justify-evenly justify-items-center;
+}
+
+nav.main-menu a
+{
+	@apply inline-block;
+	@apply px-4 py-4;
+	@apply text-gray-800 font-bold uppercase;
+}

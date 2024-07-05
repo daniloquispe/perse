@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\SiteHeader;
 
 use App\Models\MarqueeItem;
 use Closure;
@@ -29,6 +29,6 @@ class Marquee extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.marquee');
+        return view('components.site-header.marquee');
     }
 }

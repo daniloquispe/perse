@@ -1,10 +1,12 @@
+@import url(components/breadcrumbs.css);
+@import url(components/slider.css);
+
+@import url(components/site-header/main-menu.css);
+@import url(components/site-header/marquee.css);
+
 @import url(components/site-footer/index.css);
 @import url(components/site-footer/menu.css);
 @import url(components/site-footer/social-links.css);
-
-@import url(components/breadcrumbs.css);
-@import url(components/marquee.css);
-@import url(components/slider.css);
 
 @tailwind base;
 @tailwind components;

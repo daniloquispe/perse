@@ -8,9 +8,7 @@
 	@vite('resources/css/app.css')
 </head>
 <body>
-<header class="site-header">
-	<x-marquee />
-</header>
+<x-site-header />
 <main class="main-content">@yield('content')</main>
 <x-site-footer />
 @vite('resources/js/app.js')
