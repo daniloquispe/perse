@@ -2,10 +2,19 @@
     "name": "daniloquispe/perse-librerias",
     "type": "project",
     "description": "E-commerce website and CMS for a bookstore.",
-    "keywords": ["daniloquispe", "danilo quispe", "isolperu", "isol perú", "e-commerce", "bookstore", "perse librerias"],
+    "keywords": [
+        "daniloquispe",
+        "danilo quispe",
+        "isolperu",
+        "isol per\u00fa",
+        "e-commerce",
+        "bookstore",
+        "perse librerias"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "filament/filament": "^3.2",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9"
     },
@@ -32,7 +41,8 @@
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
+            "@php artisan package:discover --ansi",
+            "@php artisan filament:upgrade"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
