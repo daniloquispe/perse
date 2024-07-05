@@ -1,0 +1,19 @@
+.marquee-container
+{
+	@apply overflow-hidden;
+	@apply bg-palette-purple;
+}
+
+.marquee
+{
+	@apply flex flex-row;
+	@apply py-2;
+	@apply transition-transform;
+}
+
+.slide
+{
+	@apply min-w-full;
+	@apply text-white;
+	@apply text-center font-bold uppercase;
+}

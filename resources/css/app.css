@@ -1,3 +1,6 @@
+@import url(components/marquee.css);
+@import url(components/slider.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

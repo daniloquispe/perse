@@ -1,0 +1,20 @@
+.slider-container
+{
+	@apply overflow-hidden;
+}
+
+.slider-container .slider
+{
+	@apply flex flex-row;
+	@apply transition-transform;
+}
+
+.slider-container .slide
+{
+	@apply min-w-full;
+}
+
+.slider-container .slide img
+{
+	@apply block w-full;
+}
