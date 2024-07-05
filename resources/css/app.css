@@ -15,6 +15,7 @@
 @import url(components/site-footer/social-links.css);
 
 @import url(pages/book.css);
+@import url(pages/book-category.css);
 
 @tailwind base;
 @tailwind components;

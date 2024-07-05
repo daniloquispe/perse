@@ -12,6 +12,9 @@ Route::group(['middleware' => 'guest'], function ()
 	// Home
 	Route::get('/', \App\Http\Controllers\HomeController::class)->name('home');
 
+	// Book categories
+	Route::get('category', \App\Http\Controllers\BookCategoryController::class)->name('book-category');
+
 	// Books
 	Route::get('libro-{slug}', \App\Http\Controllers\BookController::class)->name('book');
 
