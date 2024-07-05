@@ -12,6 +12,9 @@ Route::group(['middleware' => 'guest'], function ()
 	// Home
 	Route::get('/', \App\Http\Controllers\HomeController::class)->name('home');
 
+	// Books
+	Route::get('libro-{slug}', \App\Http\Controllers\BookController::class)->name('book');
+
 	// Information pages
 	$pages = \App\Models\Page::query()
 		->select(['id', 'name', 'slug'])

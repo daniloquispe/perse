@@ -4,7 +4,7 @@
 			<div class="presale">Preventa</div>
 		@endif
 		<div class="cover">
-			<a href={{ $url }}><img src="{{ asset('images/placeholders/book.jpg') }}" alt="{{ $title }}" /></a>
+			<a href={{ route('book', 'a-alias-assumenda-dolor-eveniet-doloremque') }}><img src="{{ asset('images/placeholders/book.jpg') }}" alt="{{ $title }}" /></a>
 		</div>
 		<div class="title">{{ $title }}</div>
 		<div class="author">{{ $author }}</div>
