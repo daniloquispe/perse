@@ -4,5 +4,5 @@ import './bootstrap';
 import '@fontsource/roboto';
 
 // Components
-import './components/marquee.js';
 import './components/slider.js';
+import './components/site-header/marquee.js';
