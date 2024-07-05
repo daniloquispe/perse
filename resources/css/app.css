@@ -1,6 +1,10 @@
 @import url(components/breadcrumbs.css);
 @import url(components/slider.css);
 
+@import url(components/book-list/index.css);
+@import url(components/book-list/carousel.css);
+@import url(components/book-list/item.css);
+
 @import url(components/site-header/index.css);
 @import url(components/site-header/main-menu.css);
 @import url(components/site-header/marquee.css);
@@ -31,6 +35,11 @@ body
 	@apply max-w-7xl mx-auto;
 }
 
+.content-wrapper
+{
+	@apply mt-6 mb-10;
+}
+
 /* Document-style pages */
 
 .document header h1
@@ -42,4 +51,12 @@ body
 .document p
 {
 	@apply mb-4;
+}
+
+/* Dummy (temporary) styles */
+
+.dummy-banners-carousel
+{
+	@apply grid grid-cols-3 gap-6;
+	@apply my-4;
 }
